@@ -1,0 +1,532 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C4EFE9C51F2F094F004BB4A0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C4EFE9C41F2F094F004BB4A0 /* main.m */; };
+		C4EFE9C81F2F094F004BB4A0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C4EFE9C71F2F094F004BB4A0 /* AppDelegate.m */; };
+		C4EFE9CB1F2F094F004BB4A0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C4EFE9CA1F2F094F004BB4A0 /* ViewController.m */; };
+		C4EFE9CE1F2F094F004BB4A0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C4EFE9CC1F2F094F004BB4A0 /* Main.storyboard */; };
+		C4EFE9D01F2F094F004BB4A0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C4EFE9CF1F2F094F004BB4A0 /* Assets.xcassets */; };
+		C4EFE9D31F2F094F004BB4A0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C4EFE9D11F2F094F004BB4A0 /* LaunchScreen.storyboard */; };
+		C4EFE9DE1F2F094F004BB4A0 /* ______Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = C4EFE9DD1F2F094F004BB4A0 /* ______Tests.m */; };
+		C4EFE9E91F2F094F004BB4A0 /* ______UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C4EFE9E81F2F094F004BB4A0 /* ______UITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C4EFE9DA1F2F094F004BB4A0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C4EFE9B81F2F094F004BB4A0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C4EFE9BF1F2F094F004BB4A0;
+			remoteInfo = "如何画一个圆";
+		};
+		C4EFE9E51F2F094F004BB4A0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C4EFE9B81F2F094F004BB4A0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C4EFE9BF1F2F094F004BB4A0;
+			remoteInfo = "如何画一个圆";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C4EFE9C01F2F094F004BB4A0 /* 如何画一个圆.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "如何画一个圆.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C4EFE9C41F2F094F004BB4A0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C4EFE9C61F2F094F004BB4A0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C4EFE9C71F2F094F004BB4A0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C4EFE9C91F2F094F004BB4A0 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C4EFE9CA1F2F094F004BB4A0 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C4EFE9CD1F2F094F004BB4A0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C4EFE9CF1F2F094F004BB4A0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C4EFE9D21F2F094F004BB4A0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C4EFE9D41F2F094F004BB4A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C4EFE9D91F2F094F004BB4A0 /* 如何画一个圆Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "如何画一个圆Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C4EFE9DD1F2F094F004BB4A0 /* ______Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "______Tests.m"; sourceTree = "<group>"; };
+		C4EFE9DF1F2F094F004BB4A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C4EFE9E41F2F094F004BB4A0 /* 如何画一个圆UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "如何画一个圆UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C4EFE9E81F2F094F004BB4A0 /* ______UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "______UITests.m"; sourceTree = "<group>"; };
+		C4EFE9EA1F2F094F004BB4A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C4EFE9BD1F2F094F004BB4A0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4EFE9D61F2F094F004BB4A0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4EFE9E11F2F094F004BB4A0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C4EFE9B71F2F094F004BB4A0 = {
+			isa = PBXGroup;
+			children = (
+				C4EFE9C21F2F094F004BB4A0 /* 如何画一个圆 */,
+				C4EFE9DC1F2F094F004BB4A0 /* 如何画一个圆Tests */,
+				C4EFE9E71F2F094F004BB4A0 /* 如何画一个圆UITests */,
+				C4EFE9C11F2F094F004BB4A0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C4EFE9C11F2F094F004BB4A0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C4EFE9C01F2F094F004BB4A0 /* 如何画一个圆.app */,
+				C4EFE9D91F2F094F004BB4A0 /* 如何画一个圆Tests.xctest */,
+				C4EFE9E41F2F094F004BB4A0 /* 如何画一个圆UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C4EFE9C21F2F094F004BB4A0 /* 如何画一个圆 */ = {
+			isa = PBXGroup;
+			children = (
+				C4EFE9C61F2F094F004BB4A0 /* AppDelegate.h */,
+				C4EFE9C71F2F094F004BB4A0 /* AppDelegate.m */,
+				C4EFE9C91F2F094F004BB4A0 /* ViewController.h */,
+				C4EFE9CA1F2F094F004BB4A0 /* ViewController.m */,
+				C4EFE9CC1F2F094F004BB4A0 /* Main.storyboard */,
+				C4EFE9CF1F2F094F004BB4A0 /* Assets.xcassets */,
+				C4EFE9D11F2F094F004BB4A0 /* LaunchScreen.storyboard */,
+				C4EFE9D41F2F094F004BB4A0 /* Info.plist */,
+				C4EFE9C31F2F094F004BB4A0 /* Supporting Files */,
+			);
+			path = "如何画一个圆";
+			sourceTree = "<group>";
+		};
+		C4EFE9C31F2F094F004BB4A0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C4EFE9C41F2F094F004BB4A0 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C4EFE9DC1F2F094F004BB4A0 /* 如何画一个圆Tests */ = {
+			isa = PBXGroup;
+			children = (
+				C4EFE9DD1F2F094F004BB4A0 /* ______Tests.m */,
+				C4EFE9DF1F2F094F004BB4A0 /* Info.plist */,
+			);
+			path = "如何画一个圆Tests";
+			sourceTree = "<group>";
+		};
+		C4EFE9E71F2F094F004BB4A0 /* 如何画一个圆UITests */ = {
+			isa = PBXGroup;
+			children = (
+				C4EFE9E81F2F094F004BB4A0 /* ______UITests.m */,
+				C4EFE9EA1F2F094F004BB4A0 /* Info.plist */,
+			);
+			path = "如何画一个圆UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C4EFE9BF1F2F094F004BB4A0 /* 如何画一个圆 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C4EFE9ED1F2F094F004BB4A0 /* Build configuration list for PBXNativeTarget "如何画一个圆" */;
+			buildPhases = (
+				C4EFE9BC1F2F094F004BB4A0 /* Sources */,
+				C4EFE9BD1F2F094F004BB4A0 /* Frameworks */,
+				C4EFE9BE1F2F094F004BB4A0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "如何画一个圆";
+			productName = "如何画一个圆";
+			productReference = C4EFE9C01F2F094F004BB4A0 /* 如何画一个圆.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C4EFE9D81F2F094F004BB4A0 /* 如何画一个圆Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C4EFE9F01F2F094F004BB4A0 /* Build configuration list for PBXNativeTarget "如何画一个圆Tests" */;
+			buildPhases = (
+				C4EFE9D51F2F094F004BB4A0 /* Sources */,
+				C4EFE9D61F2F094F004BB4A0 /* Frameworks */,
+				C4EFE9D71F2F094F004BB4A0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C4EFE9DB1F2F094F004BB4A0 /* PBXTargetDependency */,
+			);
+			name = "如何画一个圆Tests";
+			productName = "如何画一个圆Tests";
+			productReference = C4EFE9D91F2F094F004BB4A0 /* 如何画一个圆Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C4EFE9E31F2F094F004BB4A0 /* 如何画一个圆UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C4EFE9F31F2F094F004BB4A0 /* Build configuration list for PBXNativeTarget "如何画一个圆UITests" */;
+			buildPhases = (
+				C4EFE9E01F2F094F004BB4A0 /* Sources */,
+				C4EFE9E11F2F094F004BB4A0 /* Frameworks */,
+				C4EFE9E21F2F094F004BB4A0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C4EFE9E61F2F094F004BB4A0 /* PBXTargetDependency */,
+			);
+			name = "如何画一个圆UITests";
+			productName = "如何画一个圆UITests";
+			productReference = C4EFE9E41F2F094F004BB4A0 /* 如何画一个圆UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C4EFE9B81F2F094F004BB4A0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "辛忠志";
+				TargetAttributes = {
+					C4EFE9BF1F2F094F004BB4A0 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+					C4EFE9D81F2F094F004BB4A0 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = C4EFE9BF1F2F094F004BB4A0;
+					};
+					C4EFE9E31F2F094F004BB4A0 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = C4EFE9BF1F2F094F004BB4A0;
+					};
+				};
+			};
+			buildConfigurationList = C4EFE9BB1F2F094F004BB4A0 /* Build configuration list for PBXProject "如何画一个圆" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C4EFE9B71F2F094F004BB4A0;
+			productRefGroup = C4EFE9C11F2F094F004BB4A0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C4EFE9BF1F2F094F004BB4A0 /* 如何画一个圆 */,
+				C4EFE9D81F2F094F004BB4A0 /* 如何画一个圆Tests */,
+				C4EFE9E31F2F094F004BB4A0 /* 如何画一个圆UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C4EFE9BE1F2F094F004BB4A0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4EFE9D31F2F094F004BB4A0 /* LaunchScreen.storyboard in Resources */,
+				C4EFE9D01F2F094F004BB4A0 /* Assets.xcassets in Resources */,
+				C4EFE9CE1F2F094F004BB4A0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4EFE9D71F2F094F004BB4A0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4EFE9E21F2F094F004BB4A0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C4EFE9BC1F2F094F004BB4A0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4EFE9CB1F2F094F004BB4A0 /* ViewController.m in Sources */,
+				C4EFE9C81F2F094F004BB4A0 /* AppDelegate.m in Sources */,
+				C4EFE9C51F2F094F004BB4A0 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4EFE9D51F2F094F004BB4A0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4EFE9DE1F2F094F004BB4A0 /* ______Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4EFE9E01F2F094F004BB4A0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4EFE9E91F2F094F004BB4A0 /* ______UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C4EFE9DB1F2F094F004BB4A0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C4EFE9BF1F2F094F004BB4A0 /* 如何画一个圆 */;
+			targetProxy = C4EFE9DA1F2F094F004BB4A0 /* PBXContainerItemProxy */;
+		};
+		C4EFE9E61F2F094F004BB4A0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C4EFE9BF1F2F094F004BB4A0 /* 如何画一个圆 */;
+			targetProxy = C4EFE9E51F2F094F004BB4A0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C4EFE9CC1F2F094F004BB4A0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C4EFE9CD1F2F094F004BB4A0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C4EFE9D11F2F094F004BB4A0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C4EFE9D21F2F094F004BB4A0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C4EFE9EB1F2F094F004BB4A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C4EFE9EC1F2F094F004BB4A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C4EFE9EE1F2F094F004BB4A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "如何画一个圆/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "---.------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C4EFE9EF1F2F094F004BB4A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "如何画一个圆/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "---.------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		C4EFE9F11F2F094F004BB4A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "如何画一个圆Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "---.------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/如何画一个圆.app/如何画一个圆";
+			};
+			name = Debug;
+		};
+		C4EFE9F21F2F094F004BB4A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "如何画一个圆Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "---.------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/如何画一个圆.app/如何画一个圆";
+			};
+			name = Release;
+		};
+		C4EFE9F41F2F094F004BB4A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "如何画一个圆UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "---.------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "如何画一个圆";
+			};
+			name = Debug;
+		};
+		C4EFE9F51F2F094F004BB4A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "如何画一个圆UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "---.------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "如何画一个圆";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C4EFE9BB1F2F094F004BB4A0 /* Build configuration list for PBXProject "如何画一个圆" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C4EFE9EB1F2F094F004BB4A0 /* Debug */,
+				C4EFE9EC1F2F094F004BB4A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C4EFE9ED1F2F094F004BB4A0 /* Build configuration list for PBXNativeTarget "如何画一个圆" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C4EFE9EE1F2F094F004BB4A0 /* Debug */,
+				C4EFE9EF1F2F094F004BB4A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C4EFE9F01F2F094F004BB4A0 /* Build configuration list for PBXNativeTarget "如何画一个圆Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C4EFE9F11F2F094F004BB4A0 /* Debug */,
+				C4EFE9F21F2F094F004BB4A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C4EFE9F31F2F094F004BB4A0 /* Build configuration list for PBXNativeTarget "如何画一个圆UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C4EFE9F41F2F094F004BB4A0 /* Debug */,
+				C4EFE9F51F2F094F004BB4A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C4EFE9B81F2F094F004BB4A0 /* Project object */;
+}
