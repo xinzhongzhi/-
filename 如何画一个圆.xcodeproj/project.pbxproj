@@ -15,6 +15,8 @@
 		C4EFE9D31F2F094F004BB4A0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C4EFE9D11F2F094F004BB4A0 /* LaunchScreen.storyboard */; };
 		C4EFE9DE1F2F094F004BB4A0 /* ______Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = C4EFE9DD1F2F094F004BB4A0 /* ______Tests.m */; };
 		C4EFE9E91F2F094F004BB4A0 /* ______UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C4EFE9E81F2F094F004BB4A0 /* ______UITests.m */; };
+		C4EFE9F81F2F0A64004BB4A0 /* drawView.m in Sources */ = {isa = PBXBuildFile; fileRef = C4EFE9F71F2F0A64004BB4A0 /* drawView.m */; };
+		C4EFE9FB1F2F1531004BB4A0 /* CircleProgressLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = C4EFE9FA1F2F1531004BB4A0 /* CircleProgressLayer.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,10 @@
 		C4EFE9E41F2F094F004BB4A0 /* 如何画一个圆UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "如何画一个圆UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4EFE9E81F2F094F004BB4A0 /* ______UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "______UITests.m"; sourceTree = "<group>"; };
 		C4EFE9EA1F2F094F004BB4A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C4EFE9F61F2F0A64004BB4A0 /* drawView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = drawView.h; sourceTree = "<group>"; };
+		C4EFE9F71F2F0A64004BB4A0 /* drawView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = drawView.m; sourceTree = "<group>"; };
+		C4EFE9F91F2F1531004BB4A0 /* CircleProgressLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CircleProgressLayer.h; sourceTree = "<group>"; };
+		C4EFE9FA1F2F1531004BB4A0 /* CircleProgressLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CircleProgressLayer.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +111,10 @@
 				C4EFE9C71F2F094F004BB4A0 /* AppDelegate.m */,
 				C4EFE9C91F2F094F004BB4A0 /* ViewController.h */,
 				C4EFE9CA1F2F094F004BB4A0 /* ViewController.m */,
+				C4EFE9F61F2F0A64004BB4A0 /* drawView.h */,
+				C4EFE9F71F2F0A64004BB4A0 /* drawView.m */,
+				C4EFE9F91F2F1531004BB4A0 /* CircleProgressLayer.h */,
+				C4EFE9FA1F2F1531004BB4A0 /* CircleProgressLayer.m */,
 				C4EFE9CC1F2F094F004BB4A0 /* Main.storyboard */,
 				C4EFE9CF1F2F094F004BB4A0 /* Assets.xcassets */,
 				C4EFE9D11F2F094F004BB4A0 /* LaunchScreen.storyboard */,
@@ -275,6 +285,8 @@
 			files = (
 				C4EFE9CB1F2F094F004BB4A0 /* ViewController.m in Sources */,
 				C4EFE9C81F2F094F004BB4A0 /* AppDelegate.m in Sources */,
+				C4EFE9FB1F2F1531004BB4A0 /* CircleProgressLayer.m in Sources */,
+				C4EFE9F81F2F0A64004BB4A0 /* drawView.m in Sources */,
 				C4EFE9C51F2F094F004BB4A0 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
